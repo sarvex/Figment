@@ -21,7 +21,7 @@ test = ["tempfile", "parking_lot"]
 
 [dependencies]
 serde = { version = "1.0" }
-uncased = "0.9.3"
+uncased = "0.9.10"
 pear = { version = "0.2", optional = true }
 toml = { version = "0.7", optional = true }
 serde_json = { version = "1.0", optional = true }
