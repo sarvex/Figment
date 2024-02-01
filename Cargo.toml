@@ -30,7 +30,7 @@ tempfile = { version = "3", optional = true }
 parking_lot = { version = "0.12", optional = true }
 
 [target.'cfg(any(target_pointer_width = "8", target_pointer_width = "16", target_pointer_width = "32"))'.dependencies]
-atomic = "0.5.0"
+atomic = "0.6.0"
 
 [dev-dependencies]
 tempfile = "3"
