@@ -20,7 +20,7 @@ test = ["tempfile", "parking_lot"]
 # toml = ["toml"]
 
 [dependencies]
-serde = { version = "1.0" }
+serde = { version = "1.0.200" }
 uncased = "0.9.3"
 pear = { version = "0.2", optional = true }
 toml = { version = "0.7", optional = true }
@@ -35,7 +35,7 @@ atomic = "0.5.0"
 [dev-dependencies]
 tempfile = "3"
 parking_lot = "0.12"
-serde = { version = "1.0", features = ["derive"] }
+serde = { version = "1.0.200", features = ["derive"] }
 clap = { version = "4", features = ["derive"] }
 
 [build-dependencies]
